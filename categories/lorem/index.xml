@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lorem on krzpob.github.io</title>
-    <link>https://krzpob.github.io/docs/categories/lorem/</link>
+    <link>https://krzpob.github.io/categories/lorem/</link>
     <description>Recent content in Lorem on krzpob.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Jul 2017 15:06:07 -0400</lastBuildDate>
     
-	<atom:link href="https://krzpob.github.io/docs/categories/lorem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krzpob.github.io/categories/lorem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Asciidoc for Web Development</title>
-      <link>https://krzpob.github.io/docs/post/article/</link>
+      <link>https://krzpob.github.io/post/article/</link>
       <pubDate>Fri, 28 Jul 2017 15:06:07 -0400</pubDate>
       
-      <guid>https://krzpob.github.io/docs/post/article/</guid>
+      <guid>https://krzpob.github.io/post/article/</guid>
       <description>During the day, I work with content management tools and support documentation writers who&amp;#8217;s preferred language of choice is Asciidoc. It has a simple syntax, but enough features to keep even a hard core documentation nerd happy. With Asciidoc, you can write documentation in a more natural way and mark it up cleanly for presentation on the web or as a PDF. This got me thinking, &#34;Wouldn&amp;#8217;t it be handy to be able to maintain a website purely with Asciidoc?</description>
     </item>
     
     <item>
       <title>Creating a theme</title>
-      <link>https://krzpob.github.io/docs/post/creating-a-new-theme/</link>
+      <link>https://krzpob.github.io/post/creating-a-new-theme/</link>
       <pubDate>Wed, 03 Aug 2016 13:39:46 +0200</pubDate>
       
-      <guid>https://krzpob.github.io/docs/post/creating-a-new-theme/</guid>
+      <guid>https://krzpob.github.io/post/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;#8217;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;#8217;t cover using CSS to style your theme.
  We&amp;#8217;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Using the files in this repo</title>
-      <link>https://krzpob.github.io/docs/post/welcome/</link>
+      <link>https://krzpob.github.io/post/welcome/</link>
       <pubDate>Tue, 26 Jul 2016 14:31:37 -0400</pubDate>
       
-      <guid>https://krzpob.github.io/docs/post/welcome/</guid>
+      <guid>https://krzpob.github.io/post/welcome/</guid>
       <description>This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
    Figure 1. The server    Installing Asciidoc and Asciidoctor. Ubuntu Asciidoc is available in the default repos.
  sudo apt-get install asciidoc asciidoctor -y   Fedora Asciidoctor can be installed using the gem command. Asciidoc is installed through the standard repos.</description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>Creating a new theme</title>
-      <link>https://krzpob.github.io/docs/post/creating-a-new-theme/</link>
+      <link>https://krzpob.github.io/post/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://krzpob.github.io/docs/post/creating-a-new-theme/</guid>
+      <guid>https://krzpob.github.io/post/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>

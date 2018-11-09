@@ -17,18 +17,18 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		
 		<meta name="og:site_name" content="krzpob.github.io">
 		<meta name="og:title" content="Creating a new theme">
-		<meta name="og:url" content="https://krzpob.github.io/docs/post/creating-a-new-theme/">
+		<meta name="og:url" content="https://krzpob.github.io/post/creating-a-new-theme/">
 		
-		<meta name="og:image" content="https://krzpob.github.io/docs/images/avatar.jpg">
+		<meta name="og:image" content="https://krzpob.github.io/images/avatar.jpg">
 		
 		
 
 		<meta name="generator" content="Hugo 0.51" />
 
-		<!--[if lte IE 8]><script src='https://krzpob.github.io/docs/js/ie/html5shiv.js'></script><![endif]-->
+		<!--[if lte IE 8]><script src='https://krzpob.github.io/js/ie/html5shiv.js'></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://krzpob.github.io/docs/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="https://krzpob.github.io/docs//css/ie8.css"><![endif]-->
+		<link rel="stylesheet" href="https://krzpob.github.io/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="https://krzpob.github.io//css/ie8.css"><![endif]-->
 
 		
 		
@@ -38,7 +38,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<!-- Header -->
 <header id="header">
 	
-	<a href="https://krzpob.github.io/docs/" class="image avatar"><img src="https://krzpob.github.io/docs/images/avatar.jpg" alt="" /></a>
+	<a href="https://krzpob.github.io/" class="image avatar"><img src="https://krzpob.github.io/images/avatar.jpg" alt="" /></a>
 	
 	
 		<h1>**I&rsquo;m java developer.</h1>
@@ -48,9 +48,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<nav id="sidebar">
 			<ul>
 			
-				<li><a href="https://krzpob.github.io/docs/">Home</a></li>
+				<li><a href="https://krzpob.github.io/">Home</a></li>
 			
-				<li><a href="https://krzpob.github.io/docs/post/">Blog</a></li>
+				<li><a href="https://krzpob.github.io/post/">Blog</a></li>
 			
 			</ul>
 		</nav>
@@ -74,7 +74,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     
         <i class="fa fa-folder"></i>&nbsp;&nbsp;
         
-        <a class="article-category-link" href="https://krzpob.github.io/docs/categories/lorem">Lorem</a>
+        <a class="article-category-link" href="https://krzpob.github.io/categories/lorem">Lorem</a>
         
         
     
@@ -1229,214 +1229,10 @@ $ vi themes/zafta/layouts/_default/single.html
 		<li><a href="//flickr.com/photos/krzpob" target="_blank" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
 		
 		
-		<li><a href="https://krzpob.github.io/docs/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		<li><a href="https://krzpob.github.io/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 		
 		
-		<li><a href="https://krzpob.github.io/docs/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
-		
-	</ul>
-
-	<ul class="copyright">
-		
-		<li>&copy; Krzysztof Pobożan</li>
-		
-		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
-		
-		<li>Demo Images: <a href="//unsplash.com/">Unsplash</a></li>
-		
-	</ul>
-</footer>
-
-<!-- Scripts -->
-<script src="https://krzpob.github.io/docs/js/jquery.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/jquery.poptrox.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/skel.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/util.js"></script>
-
-<script src="https://krzpob.github.io/docs/js/main.js"></script>
-
-
-
-
-
-	</body>
-</html>
- the Partials</h4>
-<div class="literalblock">
-<div class="content">
-<pre>$ vi themes/zafta/layouts/_default/single.html
-{{ partial "header.html" . }}
-
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  {{ .Content }}
-
-{{ partial "footer.html" . }}
-:wq</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Generate the web site and verify the results. The title on the posts and
-the about page should both reflect the value in the markdown file.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="add-date-published-to-posts">Add “Date Published” to Posts</h3>
-<div class="paragraph">
-<p>It&#8217;s common to have posts display the date that they were written or
-published, so let&#8217;s add that. The front matter of our posts has a
-variable named "date." It&#8217;s usually the date the content was created,
-but let&#8217;s pretend that&#8217;s the value we want to display.</p>
-</div>
-<div class="sect3">
-<h4 id="add-date-published-to-the-template">Add “Date Published” to the Template</h4>
-<div class="paragraph">
-<p>We&#8217;ll start by updating the template used to render the posts. The
-template code will look like:</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>{{ .Date.Format "Mon, Jan 2, 2006" }}</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Posts use the default single template, so we&#8217;ll change that file.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>$ vi themes/zafta/layouts/_default/single.html
-{{ partial "header.html" . }}
-
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  &lt;h2&gt;{{ .Date.Format "Mon, Jan 2, 2006" }}&lt;/h2&gt;
-  {{ .Content }}
-
-{{ partial "footer.html" . }}
-:wq</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Generate the web site and verify the results. The posts now have the
-date displayed in them. There&#8217;s a problem, though. The "about" page also
-has the date displayed.</p>
-</div>
-<div class="paragraph">
-<p>As usual, there are a couple of ways to make the date display only on
-posts. We could do an "if" statement like we did on the home page.
-Another way would be to create a separate template for posts.</p>
-</div>
-<div class="paragraph">
-<p>The "if" solution works for sites that have just a couple of content
-types. It aligns with the principle of "code for today," too.</p>
-</div>
-<div class="paragraph">
-<p>Let&#8217;s assume, though, that we&#8217;ve made our site so complex that we feel
-we have to create a new template type. In Hugo-speak, we&#8217;re going to
-create a section template.</p>
-</div>
-<div class="paragraph">
-<p>Let&#8217;s restore the default single template before we forget.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>$ mkdir themes/zafta/layouts/post
-$ vi themes/zafta/layouts/_default/single.html
-{{ partial "header.html" . }}
-
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  {{ .Content }}
-
-{{ partial "footer.html" . }}
-:wq</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Now we&#8217;ll update the post&#8217;s version of the single template. If you
-remember Hugo&#8217;s rules, the template engine will use this version over
-the default.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>$ vi themes/zafta/layouts/post/single.html
-{{ partial "header.html" . }}
-
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  &lt;h2&gt;{{ .Date.Format "Mon, Jan 2, 2006" }}&lt;/h2&gt;
-  {{ .Content }}
-
-{{ partial "footer.html" . }}
-:wq</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Note that we removed the date logic from the default template and put it
-in the post template. Generate the web site and verify the results.
-Posts have dates and the about page doesn&#8217;t.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="dont-repeat-yourself">Don&#8217;t Repeat Yourself</h4>
-<div class="paragraph">
-<p>DRY is a good design goal and Hugo does a great job supporting it. Part
-of the art of a good template is knowing when to add a new template and
-when to update an existing one. While you&#8217;re figuring that out, accept
-that you&#8217;ll be doing some refactoring. Hugo makes that easy and fast, so
-it&#8217;s okay to delay splitting up a template.</p>
-</div>
-</div>
-</div>
-
-	</p>
-
-	<div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "krzpob.github.io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-		</div>
-
-		<!-- Footer -->
-<footer id="footer">
-	<ul class="icons">
-		
-		
-		
-		<li><a href="//twitter.com/krzpob" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-		
-		
-		<li><a href="//github.com/krzpob" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
-		
-		
-		<li><a href="//gitlab.com/krzpob" target="_blank" class="icon fa-gitlab"><span class="label">GitLab</span></a></li>
-		
-		
-		<li><a href="//linkedin.com/in/krzpob" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-		
-		
-		
-		<li><a href="//flickr.com/photos/krzpob" target="_blank" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-		
-		
-		<li><a href="https://krzpob.github.io/docs/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-		
-		
-		<li><a href="https://krzpob.github.io/docs/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
+		<li><a href="https://krzpob.github.io/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
 		
 	</ul>
 
@@ -1452,12 +1248,12 @@ it&#8217;s okay to delay splitting up a template.</p>
 </footer>
 
 <!-- Scripts -->
-<script src="https://krzpob.github.io/docs/js/jquery.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/jquery.poptrox.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/skel.min.js"></script>
-<script src="https://krzpob.github.io/docs/js/util.js"></script>
+<script src="https://krzpob.github.io/js/jquery.min.js"></script>
+<script src="https://krzpob.github.io/js/jquery.poptrox.min.js"></script>
+<script src="https://krzpob.github.io/js/skel.min.js"></script>
+<script src="https://krzpob.github.io/js/util.js"></script>
 
-<script src="https://krzpob.github.io/docs/js/main.js"></script>
+<script src="https://krzpob.github.io/js/main.js"></script>
 
 
 
