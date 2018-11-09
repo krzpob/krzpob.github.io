@@ -1,4 +1,4 @@
-baseurl = "https://krzpob.github.io/"
+baseurl = "https://krzpob.github.io/docs"
 languageCode = "en-us"
 title = "krzpob.github.io"
 theme = "hugo-strata-theme"
