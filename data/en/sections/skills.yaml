@@ -1,0 +1,10 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+skils:
+  - name: Java
+    # logo: 
+    summary: "Lorem ipsum"
