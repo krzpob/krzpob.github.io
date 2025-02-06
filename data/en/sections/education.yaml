@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+degrees:
+  - name: postgraduate “BusinnessApplication in Java”
+    icon: fa-microscope
+    timeframe: 2011-2012
+    institution:
+      name: Lodz University of Technology
+      url: 'https://p.lodz.pl/en'
+      logo: '/images/education/pl-lodz.png'
+  - name: "MCs in Computer Physics"
+    icon: fa-graduation-cap
+    timeframe: 1999-2007
+    institution:
+      name: Nicolaus Copernicus University in Torun
+      url: "https://umk.pl/en"
+      logo: "/images/education/logo-umk-en.png"
+      darklogo: "/images/education/logo-umk-en-negatyw.png"
+      extracurricularActivities: 
+       - Work in the scientific club of physics students
