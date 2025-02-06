@@ -1,0 +1,21 @@
+baseURL = 'https://krzpob.github.io/'
+languageCode = 'en-us'
+title = 'My portfolio'
+theme = ''
+
+[menu]
+
+# Main menu
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Option 1: Default Page"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.home"
+[params]
+logo = "img/java_soft-logo.jpg"
