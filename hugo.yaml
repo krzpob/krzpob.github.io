@@ -1,7 +1,7 @@
 baseURL: https://krzpob.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Krzysztof Pobożan"
 
 # Use Hugo modules to add theme
 module:
@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "Krzysztof Pobożan"
+    title: "Krzysztof Pobozan"
     weight: 1
   pl:
     languageCode: pl
