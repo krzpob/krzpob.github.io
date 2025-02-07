@@ -1,0 +1,16 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+skils:
+  - name: "Java"
+    logo: "/images/skill/java-logo.png"
+    summary: "I have over 10 years of experience writing applications in Java from desktop applications to services"
+  - name: "SQL"
+    summary: "Near 15 years of experience. At work I used: MySQL, OracleDB and PostgreSQL"
+    logo: "/images/skill/Sql_data_base_with_logo.png" 
+  - name: "Version Control (GIT)"
+    summary: "Experience with git based project. Working with gitlab, github and gerrit"
+    logo: "/images/skill/git.png"

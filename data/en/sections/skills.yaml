@@ -1,10 +1,26 @@
+# section information
 section:
   name: Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
-skils:
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
   - name: Java
-    # logo: 
-    summary: "Lorem ipsum"
+    logo: "/images/skill/java-logo.png"
+    summary: "I have over 10 years of experience writing applications in Java from desktop applications to services"
+  - name: SQL
+    summary: "Near 15 years of experience. At work, I used MySQL, OracleDB, and PostgreSQL"
+    logo: "/images/skill/Sql_data_base_with_logo.png" 
+  - name: GIT
+    summary: "Experience with git-based projects. Working with Gitlab, GitHub and Gerrit"
+    logo: "/images/skill/git.png" 
+  - name: Docker
+    summary: "Experience with docker-based projects. Writing description of docker images for java based applications, included Tomcat"
+    logo: "/images/skill/docker.png"
+  - name: Kotlin
+    logo: "/images/skill/kotlin.png"
+    summary: "Experience with a Kotlin-based project. Write from scratch to production services that are written in Kotlin using a SpringBoot framework"

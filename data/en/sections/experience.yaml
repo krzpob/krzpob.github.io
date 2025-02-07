@@ -1,0 +1,79 @@
+section:
+  name: Experiences 
+  id: experiences 
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+experiences:
+- company: 
+    name: Piano Ltd.
+    overwiew: Piano's Digital Experience Platform empowers your teams to understand and influence customer behavior.
+    logo: /images/experience/piano_media_logo.jpeg
+    location: Warsaw
+  positions:
+  - designations: Senior Software Engineer
+    start: january 2024
+    end: november 2024
+- company:
+    name: Scalo 
+    overview: Scale your business with software solutions - provide engineers for business
+    logo: /images/experience/scalosoft_logo.jpeg
+    location: Poznan
+  positions: 
+  - designations: Software Engineer
+    start: maj 2022
+    end: september 2023
+    responsibilities:
+    - Maintenance and development of a system for handling investment funds and so-called private banking
+- company:
+    name: Agora S.A.
+    overview: Paper and digital newspaper
+    location: Torun
+    logo: /images/experience/logo-grupa-pl.svg
+  positions: 
+    - designations: Software Engineer
+      start: may 2014
+      end: april 2022
+      responsibilities:
+      - development and maintenance of digital subscription system on wyborcza.pl
+      - Marketing management system in microservice architecture
+- company:
+    name: Jirav Ltd.
+    overview: Create enterprise performance management (CPM) software
+    location: Austin, TX
+    logo: /images/experience/jirav_logo.jpeg
+  positions:
+    - designations: Consultant
+      start: december 2015
+      end: marc 2017 
+      responsibilities:
+       - Configure some devops tools on AWS
+       - develop services in spring/spring-boot
+
+- company: 
+    name: MyDeal Sp. z. o. o.
+    overview: "Portal selling discount coupons"
+    location: "Torun/Warsaw"
+    logo: "/images/experience/my-deal-logo.png"
+  positions:
+    - designation: PHP Software Engineer
+      start: May 2011
+      end: April 2014
+      responsibilities:
+      - Implements new feature in a portal and a backoffice site using PHP5 and JavaScript
+      - Responce to a bug reported by users
+- company:
+    name: CTDP Sp. z. o. o. & co. sp. k. 
+    overview: "Call Center"
+    location: Bydgoszcz
+    logo: /images/experience/ctdp_logo.jpeg
+  positions:
+    - designation: PHP Software Engineer
+      start: December 2007
+      end: Marc 2011
+      responsibilities:
+      - Implements new feature in a system using PHP5
+      - Responce to a bug reported by users
+      - Writing and maintaining a desktop application that supports a barcode scanner and label printer/labeler. The application was written in Java.

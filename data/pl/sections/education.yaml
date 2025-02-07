@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Edukacja
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+degrees:
+  - name: studia podyplomowe “Biznesowe aplikacje w Java”
+    icon: fa-microscope
+    timeframe: 2011-2012
+    institution:
+      name: Politechnika Pódzka
+      url: 'https://p.lodz.pl/'
+      logo: '/images/education/pl-lodz.png'
+  - name: "mgr fizyka komputerowa"
+    icon: fa-graduation-cap
+    timeframe: 1999-2007
+    institution:
+      name: Uniwersytet Mikołaja Kopernika w Toruniu
+      url: "https://umk.pl/n"
+      logo: "/images/education/logo-umk-en.png"
+      darklogo: "/images/education/logo-umk-en-negatyw.png"
+      extracurricularActivities: 
+       - Praca w ramach Koła Naukowego Studentów Fizyki, stworzenie strony koła w latach 2004-2007
