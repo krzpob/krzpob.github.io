@@ -11,7 +11,7 @@ section:
 skills:
   - name: Java
     logo: "/images/skill/java-logo.png"
-    summary: "I have over 10 years of experience writing applications in Java from desktop applications to services"
+    summary: "I have over 10 years of experience writing applications in Java from desktop applications to services. Confirmed by 'Oracle Certified Associate, Java SE 7 Programmer'"
   - name: SQL
     summary: "Near 15 years of experience. At work, I used MySQL, OracleDB, and PostgreSQL"
     logo: "/images/skill/Sql_data_base_with_logo.png" 

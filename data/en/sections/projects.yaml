@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+  - name: Domain Marketing
+    role: Developer, Architect
+    timeline: May 2018 - April 2022
+    summary: System for managment custom communication on webseite wyborcza.pl, based on user bechavior. 
+    url: https://wyborcza.pl
+    tags: ['professional']
+  - name: Home Site
+    role: Contributor, Developer
+    timeline: January 2025 - now
+    repo: https://github.com/krzpob/krzpob.github.io
+    tags: ['hobby','professional']
+  - name: Piano.io
+    logo: /images/experience/piano_media_logo.jpeg
+    role: Developer
+    summary: provide subscription option for digital newspapers.
+    tags: ['professional']
+    url: https://www.piano.io/
+  - name: Highway Cinema
+    role: Developer
+    tags: ['professional']
+    summary: recruting challange
+    repo: https://github.com/krzpob/cinema-challange
+  - name: Private Gallery for Clients
+    tags: ['hobby','professional']
+    role: CEO, Developer
+    summary: gallery with images from sessions shared and protected by password
+    url: https://github.com/users/krzpob/projects/1
+   

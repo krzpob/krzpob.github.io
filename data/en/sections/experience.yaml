@@ -14,8 +14,8 @@ experiences:
     location: Warsaw
   positions:
   - designations: Senior Software Engineer
-    start: january 2024
-    end: november 2024
+    start: January 2024
+    end: November 2024
 - company:
     name: Scalo 
     overview: Scale your business with software solutions - provide engineers for business
@@ -23,8 +23,8 @@ experiences:
     location: Poznan
   positions: 
   - designations: Software Engineer
-    start: maj 2022
-    end: september 2023
+    start: Maj 2022
+    end: September 2023
     responsibilities:
     - Maintenance and development of a system for handling investment funds and so-called private banking
 - company:
@@ -34,8 +34,8 @@ experiences:
     logo: /images/experience/logo-grupa-pl.svg
   positions: 
     - designations: Software Engineer
-      start: may 2014
-      end: april 2022
+      start: May 2014
+      end: April 2022
       responsibilities:
       - development and maintenance of digital subscription system on wyborcza.pl
       - Marketing management system in microservice architecture
@@ -46,8 +46,8 @@ experiences:
     logo: /images/experience/jirav_logo.jpeg
   positions:
     - designations: Consultant
-      start: december 2015
-      end: marc 2017 
+      start: December 2015
+      end: March 2017 
       responsibilities:
        - Configure some devops tools on AWS
        - develop services in spring/spring-boot
