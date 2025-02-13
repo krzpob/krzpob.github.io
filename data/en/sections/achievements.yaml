@@ -1,14 +1,14 @@
 # section information
-section:
-  name: Achievements
-  id: achievements
-  enable: true
-  weight: 9
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-achievements:
-  - title: "Oracle Certified Associate, Java SE 7 Programmer"
-    image: images/oca.png
-    summary: "A Java SE 7 Oracle Certified Associate (OCA) has built a foundational understanding of Java, while acquiring knowledge of general programming."
+# section:
+#   name: Achievements
+#   id: achievements
+#   enable: true
+#   weight: 9
+#   showOnNavbar: true
+#   # Can optionally hide the title in sections
+#   # hideTitle: true
+# achievements:
+#   - title: "Oracle Certified Associate, Java SE 7 Programmer"
+#     image: images/oca.png
+#     summary: "A Java SE 7 Oracle Certified Associate (OCA) has built a foundational understanding of Java, while acquiring knowledge of general programming."
   

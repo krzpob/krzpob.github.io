@@ -28,7 +28,7 @@ projects:
     repo: https://github.com/krzpob/krzpob.github.io
     tags: ['hobby','professional']
   - name: Piano.io
-    logo: /images/experience/piano_media_logo.jpeg
+    logo: /images/experience/piano_media_logo.jpeg  
     role: Developer
     summary: provide subscription option for digital newspapers.
     tags: ['professional']
