@@ -14,3 +14,11 @@ socialLinks:
   - name: Facebook
     icon: "fab fa-facebook"
     url: "https://facebook.com/javasoft.poland"
+resourceLinks:
+  - title: "My Resume"
+    url: "files/KrzysztofPobozan-10YearsJava_AgileKnown.pdf"
+badges:
+- type: certification
+  name: Oracle Certified Associate, Java SE 7 Programmer
+  url:  "https://www.credly.com/org/oracle/badge/oracle-certified-associate-java-se-7-programmer"
+  badge: "https://images.credly.com/size/340x340/images/9956323d-90eb-4a7a-9fc6-4750ce433d3a/Oracle-Certification-badge_OC-Associate600X600.png"

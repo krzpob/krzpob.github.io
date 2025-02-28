@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+buttons:
+- name: Wszystkie
+  filter: "all"
+- name: Profesjonalne
+  filter: "professional"
+- name: Dodatkowe
+  filter: "hobby"
+
+projects:
+  - name: Domena marketingowa
+    role: Developer, Architekt
+    timeline: Maj 2018 - Kwiecień 2022
+    summary: System do zarządzania niestandardową komunikacją na stronie wyborcza.pl, oparty na zachowaniach użytkowników. 
+    url: https://wyborcza.pl
+    tags: ['professional']
+  - name: Strona domowa
+    role: Twórca
+    timeline: Styczeń 2025 - now
+    repo: https://github.com/krzpob/krzpob.github.io
+    tags: ['hobby','professional']
+  - name: Piano.io
+    logo: /images/experience/piano_media_logo.jpeg  
+    role: Starszy Proramista
+    summary: zapewnienie opcji subskrypcji gazet cyfrowych.
+    tags: ['professional']
+    url: https://www.piano.io/
+  - name: Highway Cinema
+    role: Proramista
+    tags: ['professional']
+    summary: zadanie rekrutacyjne
+    repo: https://github.com/krzpob/cinema-challange
+  - name: Prywatne galerie dla klientów
+    tags: ['hobby','professional']
+    role: CEO, Programista
+    summary: galeria ze zdjęciami z sesji udostępniona i chroniona hasłem
+    url: https://github.com/users/krzpob/projects/1
+   
