@@ -1,5 +1,5 @@
 section:
-  name: Skills
+  name: Umiejętności
   id: skills
   enable: true
   weight: 2
@@ -7,10 +7,10 @@ section:
 skils:
   - name: "Java"
     logo: "/images/skill/java-logo.png"
-    summary: "I have over 10 years of experience writing applications in Java from desktop applications to services"
+    summary: "Ponad 10 lat w pisaniu aplikacji, głównie serwisy"
   - name: "SQL"
-    summary: "Near 15 years of experience. At work I used: MySQL, OracleDB and PostgreSQL"
+    summary: "Prawie 15 lat doświadczenia. W pracy używałem baz SQL: MySQL, OracleDB oraz PostgreSQL"
     logo: "/images/skill/Sql_data_base_with_logo.png" 
-  - name: "Version Control (GIT)"
-    summary: "Experience with git based project. Working with gitlab, github and gerrit"
+  - name: "Kontrola wersji (GIT)"
+    summary: "Doświadczenie w pracy z projektami opartymi o git. Pracowałem z gitlab, github i gerrit"
     logo: "/images/skill/git.png"
