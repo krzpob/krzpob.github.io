@@ -4,7 +4,8 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
-skils:
+
+skills:
   - name: "Java"
     logo: "/images/skill/java-logo.png"
     summary: "Ponad 10 lat w pisaniu aplikacji, głównie serwisy"
@@ -14,3 +15,9 @@ skils:
   - name: "Kontrola wersji (GIT)"
     summary: "Doświadczenie w pracy z projektami opartymi o git. Pracowałem z gitlab, github i gerrit"
     logo: "/images/skill/git.png"
+  - name: Docker
+    summary: "Doświadczenie z projaktami opartymi o docker'a. Tworzenie skryptów tworzących obrazy od prostych aplikacji po serwer tomcat"
+    logo: "/images/skill/docker.png"
+  - name: Kotlin
+    logo: "/images/skill/kotlin.png"
+    summary: Doświadczenie w projektach opartych na Kotlinie. Pisanie od zera do produkcji usług napisanych w Kotlinie przy użyciu frameworka SpringBoot
