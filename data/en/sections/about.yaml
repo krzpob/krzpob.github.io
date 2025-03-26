@@ -6,7 +6,7 @@ section:
   showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
   template: sections/about.html
 designation: Senior Java Software Engineer
-summary: 'I am a passionate software engineer with 15 years of working experience.'
+summary: 'Experienced Senior Software Developer with over 10 years of experience in Java, Spring Boot, microservices architecture and cloud solutions. Proven ability to migrate legacy systems, improve application performance by 30% and optimize CI/CD pipelines, which has contributed to faster deployments and system stability. A proponent of Agile, SCRUM and BDD. Passionate about mentoring and collaborating on projects with high business impact.'
 socialLinks:
   - name: Email
     icon: "fas fa-envelope"
