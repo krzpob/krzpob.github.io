@@ -5,7 +5,7 @@ section:
   weight: 1 # Order to display section in (default: alphabetical followed by weight)
   showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
   template: sections/about.html
-designation: Senior Java Software Engineer and owner of Java Soft Krzysztof Pobożan
+designation: Senior Java Software Engineer
 summary: 'I am a passionate software engineer with 15 years of working experience.'
 socialLinks:
   - name: Email
@@ -16,7 +16,7 @@ socialLinks:
     url: "https://facebook.com/javasoft.poland"
 resourceLinks:
   - title: "My Resume"
-    url: "files/KrzysztofPobozan-10YearsJava_AgileKnown.pdf"
+    url: "files/ResumeKrzysztofPobozan.pdf"
 badges:
 - type: certification
   name: Oracle Certified Associate, Java SE 7 Programmer
