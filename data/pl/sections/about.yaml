@@ -6,7 +6,7 @@ section:
   showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
   template: sections/about.html
 designation: Senior Java Software Engineer
-summary: 'Jestem programistą z 15 letnim doświadczeniem.'
+summary: 'Doświadczony Senior Software Developer z ponad 10-letnim doświadczeniem w Java, Spring Boot, architekturze mikroserwisów i rozwiązaniach chmurowych. Udokumentowana umiejętność migracji starszych systemów, poprawy wydajności aplikacji o 30% oraz optymalizacji pipeline’ów CI/CD, co przyczyniło się do szybszych wdrożeń i stabilności systemów. Zwolennik Agile, SCRUM i BDD. Pasjonat mentoringu oraz współpracy nad projektami o dużym wpływie biznesowym.'
 socialLinks:
   - name: Email
     icon: "fas fa-envelope"
@@ -16,7 +16,7 @@ socialLinks:
     url: "https://facebook.com/javasoft.poland"
 resourceLinks:
   - title: "My Resume"
-    url: "files/KrzysztofPobozan-10YearsJava_AgileKnown.pdf"
+    url: "files/CVKrzysztofPobozan.pdf"
 badges:
 - type: certification
   name: Oracle Certified Associate, Java SE 7 Programmer
