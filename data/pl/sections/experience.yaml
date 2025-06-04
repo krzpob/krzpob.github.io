@@ -88,8 +88,8 @@ experiences:
   positions:
     - designation: programista PHP
       start: Grudzień 2007
-        end: Marzec 2011
-        responsibilities:
-        - implementacja nowych funkcji w systemie przy użyciu PHP5
-        - reagowanie
-        - Tworzenie i utrzymanie aplikacji desktopowej wspierającej obsługę skanera kodów kreskowych oraz drukarki/etykieciarki. Aplikacja została napisana w Javie.
+      end: Marzec 2011
+      responsibilities:
+      - implementacja nowych funkcji w systemie przy użyciu PHP5
+      - reagowanie
+      - Tworzenie i utrzymanie aplikacji desktopowej wspierającej obsługę skanera kodów kreskowych oraz drukarki/etykieciarki. Aplikacja została napisana w Javie.
