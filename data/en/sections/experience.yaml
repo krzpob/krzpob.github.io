@@ -7,6 +7,19 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 experiences:
+- company:
+    name: "Agro Applikacje Sp. z o.o."
+    overview: "Agro Applikacje Sp. z o.o. is a company that specializes in providing software solutions for the agricultural sector."
+    logo: /images/experience/agro_applikacje_logo.png
+    location: Warsaw
+  positions:
+  - designations: Software Engineer
+    start: May 2025
+    end: Present
+    responsibilities:
+    - Development of a new system for managing agricultural machinery and equipment
+    - Implementation of microservices architecture using Spring Boot and Docker
+    - Optimization of existing systems for better performance and scalability
 - company: 
     name: Piano Ltd.
     overwiew: Piano's Digital Experience Platform empowers your teams to understand and influence customer behavior.

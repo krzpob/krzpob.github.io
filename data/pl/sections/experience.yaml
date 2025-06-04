@@ -1,0 +1,95 @@
+section:
+  name: Doświadczenie # Title of section (default: "") 
+  id: experiences 
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+experiences:
+- company:
+    name: "Agro Applikacje Sp. z o.o."
+    overview: "Agro Applikacje Sp. z o.o. jest firmą specjalizującą się w dostarczaniu rozwiązań programistycznych dla sektora rolniczego."
+    logo: /images/experience/agro_applikacje_logo.png
+    location: Warszawa
+  positions:
+  - designations: Backand Developer 
+    start: Maj 2025
+    end: Obecnie
+    responsibilities:
+    - Rozwój nowego systemu do zarządzania dotacjami i funduszami rolniczymi
+    - Wdrażanie architektury mikroserwisowej z użyciem Spring Boot i Dockera
+    - Optymalizacja istniejących systemów pod kątem wydajności i skalowalności
+- company: 
+    name: Piano Ltd.
+    overview: Platforma Digital subscription firmy Piano umożliwia zespołom lepsze zrozumienie i wpływanie na zachowania klientów.
+    logo: /images/experience/piano_media_logo.jpeg
+    location: Warsaw
+  positions:
+  - designations: Senior Software Engineer
+    start: Styczeń 2024
+    end: Listopad 2024
+- company:
+    name: Scalo 
+    overview: Bodyleasing dla biznesu - dostarczanie inżynierów do projektów
+    logo: /images/experience/scalosoft_logo.jpeg
+    location: Poznan
+  positions: 
+  - designations: Software Engineer
+    start: Maj 2022
+    end: Wrzesień 2023
+    responsibilities:
+    - Utrzymanie i rozwój systemu do obsługi funduszy inwestycyjnych oraz tzw. private banking
+- company:
+    name: Agora S.A.
+    overview: Papierowy i cyfrowy wydawca gazet
+    location: Torun
+    logo: /images/experience/logo-grupa-pl.svg
+  positions: 
+    - designations: Software Engineer
+      start: Maj 2014
+      end: Kwiecień 2022
+      responsibilities:
+      - Rozwój i utrzymanie systemu subskrypcji cyfrowej na wyborcza.pl
+      - System zarządzania marketingiem w architekturze mikroserwisowej
+- company:
+    name: Jirav Ltd.
+    overview: Tworzenie oprogramowania do zarządzania wydajnością przedsiębiorstw (CPM)
+    location: Austin, TX
+    logo: /images/experience/jirav_logo.jpeg
+  positions:
+    - designations: Consultant
+      start: Grudzień 2015
+      end: Marzec 2017 
+      responsibilities:
+       - konfiguracja i wdrożenie narzędzi do rozwoju oprogramowania
+       - implementacja systemów do pobierania danych z różnych źródeł
+       - tworzenie i utrzymanie dokumentacji technicznej
+       - tworzenie usług w Spring/Spring Boot
+
+- company: 
+    name: MyDeal Sp. z. o. o.
+    overview: "Portal do sprzedaży kuponów rabatowych"
+    location: "Toruń/Warszawa"
+    logo: "/images/experience/my-deal-logo.png"
+  positions:
+    - designation: PHP Software Engineer
+      start: Maj 2011
+      end: Kwiecień 2014
+      responsibilities:
+      - implementacja nowych funkcji w systemie przy użyciu PHP5
+      - utrzymanie i rozwój systemu do obsługi kuponów rabatowych
+      - reagowanie na zgłoszenia błędów od użytkowników
+- company:
+    name: CTDP Sp. z. o. o. & co. sp. k. 
+    overview: "Call Center"
+    location: Bydgoszcz
+    logo: /images/experience/ctdp_logo.jpeg
+  positions:
+    - designation: programista PHP
+      start: Grudzień 2007
+        end: Marzec 2011
+        responsibilities:
+        - implementacja nowych funkcji w systemie przy użyciu PHP5
+        - reagowanie
+        - Tworzenie i utrzymanie aplikacji desktopowej wspierającej obsługę skanera kodów kreskowych oraz drukarki/etykieciarki. Aplikacja została napisana w Javie.
