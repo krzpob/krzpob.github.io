@@ -18,21 +18,21 @@ jobs:
         node-version: 18
 
     # 2. Re-initialize Go Modules for Hugo
-      - name: Hugo Mod Tidy
-        run: hugo mod tidy
+    - name: Hugo Mod Tidy
+      run: hugo mod tidy
 
     # 3. Regenerate the temporary package.json and install Bootstrap/Cytoscape
     - name: Install Theme Dependencies
-        run: |
-          hugo mod npm pack
-          npm install
+      run: |
+        hugo mod npm pack
+        npm install
 
     # 4. Build your site with the extended version of Hugo
     - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify
+      env:
+        HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+        HUGO_ENVIRONMENT: production
+      run: hugo --gc --minify
 
   # lighthouse-check:
   #   runs-on: ubuntu-latest
