@@ -1,6 +1,6 @@
 baseURL: https://krzpob.github.io/
 
-languageCode: en
+locale: en-GB
 title: "Krzysztof Pobożan"
 
 # Use Hugo modules to add theme
@@ -21,13 +21,11 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
-    languageName: English
+    locale: en-GB
     title: "Krzysztof Pobozan"
     weight: 1
   pl:
-    languageCode: pl
-    languageName: Polski
+    locale: pl-PL
     title: "Krzysztof Pobożan"
     weight: 2
 # default language for the content
