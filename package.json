@@ -63,5 +63,10 @@
   "version": "0.1.0",
   "workspaces": [
     "packages/hugoautogen"
-  ]
+  ],
+  "allowScripts": {
+    "core-js@3.41.0": true,
+    "fsevents@2.3.3": true,
+    "typeit@8.8.7": true
+  }
 }
